@@ -1,4 +1,5 @@
-/*====================================================
+/* ==================================================== */
+/*
     DEFAULT VALUES:
 
     Font Family        : Roboto Condensed
@@ -8,9 +9,110 @@
     Blue Bayoux        : #64707b       (Paragraphs)
     White              : #ffffff       (Text With Black Backgrounds)
     Black              : #000000
+*/
+/* ====================================================== */
 
-======================================================*/
+/* General css */
+html, body {
+    height: 100%;
+}
 
 body {
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+h3 {
+    text-transform: uppercase;
+}
+
+/* ==================================================== */
+/* ======================= HOME ======================= */
+/* ==================================================== */
+#home {
+    height: 100%;
+}
+
+#home-cover {
+    height: 100%;
+    background-image: url('../img/bg-home.jpg');
+}
+
+#home-content-box {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#home-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+    /* text-align: center; */
+}
+
+#home-heading h3 {
+    color: #ffffff;
+    font-size: 55px;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+}
+
+/* ========================== */
+/* === PARALLAX (Generic) === */
+/* ========================== */
+.bg-parallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* ========================= */
+/* === BUTTONS (Generic) === */
+/* ========================= */
+.btn-general {
+    border-color: #ffffff;
+    border-width: 2px;
+    border-radius: 0;
+    padding: 12px 26px 12px 26px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.btn-white {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.btn-white:hover, .btn-white:focus {
+    background-color: #ffffff;
+    color: #41464b;
+}
+
+
+/* ==================================================== */
+/* ===================== ANIMATE ====================== */
+/* ==================================================== */
+#home-cover, #home-heading, #home-btn {
+    animation-duration: .5s;
+}
+
+#home-cover {
+    animation-delay: .1s;
+}
+
+#home-heading {
+    animation-delay: .5s;
+}
+
+#home-btn {
+    animation-delay: 1s;
+}
+
+
+/* ==================================================== */
+/* ==================================================== */
+
+
+/* ==================================================== */
+/* ==================================================== */
