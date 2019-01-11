@@ -245,8 +245,18 @@ h3 {
     padding-left: 0;
 }
 
-#work .img-wrapper img {
+.img-wrapper {
+    overflow: hidden;
+}
+
+.img-wrapper img {
     width: 100%;
+    transition: transform .5s ease;
+}
+
+.img-wrapper img:hover {
+    transform: scale(1.5);
+    cursor: zoom-in;
 }
 
 /* ==================================================== */
