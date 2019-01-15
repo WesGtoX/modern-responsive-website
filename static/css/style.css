@@ -318,9 +318,9 @@ h4.team-member-designation {
     margin-top: 10px;
 }
 
-/* ========================= */
+/* ============================== */
 /* === SOCIAL ICONS (Generic) === */
-/* ========================= */
+/* ============================== */
 .social-icon i {
     font-size: 17px;
 }
@@ -332,5 +332,76 @@ h4.team-member-designation {
 .icon-gray i:hover, .icon-gray svg:hover {
     color: #34c6d3
 }
+
+/* ==================================================== */
+/* =================== TESTIMONIALS =================== */
+/* ==================================================== */
+#testimonials-cover {
+    background-image: url('../img/bg-testimonials.jpg');
+}
+
+#testimonials .content-box {
+    background-color: rgba(0, 0, 0, alpha);
+}
+
+.content-title-white h3 {
+    color: #ffffff;
+}
+
+#customers-testimonials {
+    padding: 50px 0;
+}
+
+.testimonial img {
+    max-width: 120px;
+    margin: 0 auto 0 auto;
+}
+
+.testimonial blockquote {
+    border: 0;
+    font-family: Georgia, sans-serif;
+    font-style: italic;
+    color: #ffffff;
+    padding: 6px 150px;
+    position: relative;
+}
+
+.testimonial blockquote p {
+    color: #ffffff;
+    margin-block-end: 0;
+}
+
+.testimonial blockquote::before,
+.testimonial blockquote::after {
+    font-size: 80px;
+    font-style: normal;
+    line-height: 1;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+
+.testimonial blockquote::before {
+    content: "\201C";
+    top: 0;
+    left: 100px;
+}
+
+.testimonial blockquote::after {
+    content: "\201D";
+    bottom: 0;
+    right: 100px;
+}
+
+.testimonial-author p {
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.testimonial-author p strong {
+    display: block;
+}
+
+
 /* ==================================================== */
 /* ==================================================== */
