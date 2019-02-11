@@ -603,4 +603,44 @@ form .form-control:focus {
 }
 
 /* ==================================================== */
+/* ==================== NAVIGATION ==================== */
+/* ==================================================== */
+.navbar {
+    padding: 20px 0;
+}
+
+.vesco-top-nav {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 7px 0;
+}
+
+.vesco-nav-wrapper {
+    padding: 0 85px;
+}
+
+/* .navbar-expand-lg .navbar-collapse {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+}
+.collapse:not(.show) {
+    display: none;
+} */
+/* 
+.navbar-nav {
+    float: right;
+} */
+
+
+/* @media (min-width: 992px) {
+    .navbar-expand-lg {
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+} */
+
+/* ==================================================== */
 /* ==================================================== */
