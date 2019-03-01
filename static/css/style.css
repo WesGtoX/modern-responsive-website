@@ -606,7 +606,7 @@ form .form-control:focus {
 /* ==================== NAVIGATION ==================== */
 /* ==================================================== */
 .navbar {
-    padding: 20px 0;
+    padding: 1000px 0;
 }
 
 .vesco-top-nav {
@@ -618,29 +618,41 @@ form .form-control:focus {
     padding: 0 85px;
 }
 
-/* .navbar-expand-lg .navbar-collapse {
-    display: -ms-flexbox !important;
-    display: flex !important;
-    -ms-flex-preferred-size: auto;
-    flex-basis: auto;
-}
-.collapse:not(.show) {
-    display: none;
-} */
-/* 
 .navbar-nav {
     float: right;
-} */
+    padding: 10px 0;
+}
+
+.navbar-nav > li > a {
+    color: #ffffff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+    background: none;
+    color: #34c6d3 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
 
 
-/* @media (min-width: 992px) {
-    .navbar-expand-lg {
-        -ms-flex-flow: row nowrap;
-        flex-flow: row nowrap;
-        -ms-flex-pack: start;
-        justify-content: flex-start;
-    }
-} */
+.navbar-toggler {
+    margin: 10px 0;
+    padding: .25rem .70rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid #ffffff !important;
+    border-radius: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #34c6d3;
+}
 
 /* ==================================================== */
 /* ==================================================== */
