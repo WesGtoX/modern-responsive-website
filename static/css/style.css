@@ -606,16 +606,18 @@ form .form-control:focus {
 /* ==================== NAVIGATION ==================== */
 /* ==================================================== */
 .navbar {
-    padding: 1000px 0;
+    padding: 20px 85px;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 .vesco-top-nav {
     background: rgba(0, 0, 0, 0.7);
-    padding: 7px 0;
+    padding: 7px 85px !important;
 }
 
 .vesco-nav-wrapper {
-    padding: 0 85px;
+    padding: 20 85px;
 }
 
 .navbar-nav {
@@ -640,7 +642,6 @@ form .form-control:focus {
 .navbar-dark .navbar-nav .nav-link {
     color: #ffffff;
 }
-
 
 .navbar-toggler {
     margin: 10px 0;
