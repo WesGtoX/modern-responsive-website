@@ -1,0 +1,40 @@
+/* ================================= */
+/* === Bootstrap 3 Media Queries === */
+/* ================================= */
+
+/* Large Devices (Desktops & Laptops) */
+@media (min-width: 1200px) {
+
+    /* OK */
+}
+
+/* Medium Devices (Landscape Tablets & Medium Desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+
+/* Small Devices (Portrait Tablets & Small Desktops) */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .navbar {
+        background: rgba(0, 0, 0, 0.7);
+        padding: 0 30px;
+    }
+
+    .navbar-nav {
+        float: left;
+    }
+
+    .vesco-nav-wrapper, .vesco-top-nav {
+        padding: 0 30px !important;
+    }
+}
+
+/* Extra Small Devices (Landscapes Phones & Portrait Tablets) */
+@media (max-width: 767px) {}
+
+/* Extra Small Devices (Portrait Tablets & Small Desktops) */
+@media (max-width: 480px) {}
+
+/* Extra Small Devices (Smaller Devices) */
+@media (max-width: 320px) {}

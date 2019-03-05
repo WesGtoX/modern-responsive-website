@@ -1,8 +1,9 @@
 // ====================================================
 // ===================== SERVICES =====================
 // ====================================================
+//animate on scroll
 $(function() {
-    //animate on scroll
+
     new WOW().init();
 });
 
@@ -76,9 +77,9 @@ $(function() {
 // ====================================================
 // ==================== NAVIGATION ====================
 // ====================================================
+// Show/Hide transparent black navigation
 $(function() {
 
-    // Show/Hide transparent black navigation
     $(window).scroll(function() {
 
         if($(this).scrollTop() < 50) {
@@ -94,9 +95,9 @@ $(function() {
     })
 });
 
+// Smooth scrolling
 $(function() {
 
-    // Smooth scrolling
     $("a.smooth-scroll").click(function(event) {
 
         event.preventDefault();
@@ -107,6 +108,15 @@ $(function() {
         $('html, body').animate({
             scrollTop: $(section).offset().top - 70
         }, 1250, "easeInOutExpo");
+    });
+});
+
+// Close mobile menu on click
+$(function() {
+
+    $(".navbar-collapse ul li a").on("click touch", function() {
+
+        $(".navbar-toggler").click();
     });
 });
 

@@ -611,6 +611,16 @@ form .form-control:focus {
     color: #34c6d3;
 }
 
+#footer-copyrights p a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#footer-copyrights p a:hover {
+	color: #34c6d3;
+}
+
+
 /* ==================================================== */
 /* ==================== NAVIGATION ==================== */
 /* ==================================================== */
