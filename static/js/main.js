@@ -84,10 +84,12 @@ $(function() {
         if($(this).scrollTop() < 50) {
             //hide nav
             $("nav").removeClass("vesco-top-nav");
+            $("#back-to-top").fadeOut();
 
         } else {
             //show nav
             $("nav").addClass("vesco-top-nav");
+            $("#back-to-top").fadeIn();
         }
     })
 });
