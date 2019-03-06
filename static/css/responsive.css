@@ -10,7 +10,7 @@
 
 /* Medium Devices (Landscape Tablets & Medium Desktops) */
 @media (min-width: 992px) and (max-width: 1199px) {
-    
+    /* OK */
 }
 
 /* Small Devices (Portrait Tablets & Small Desktops) */
@@ -31,7 +31,60 @@
 }
 
 /* Extra Small Devices (Landscapes Phones & Portrait Tablets) */
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+    
+    .navbar {
+        background: rgba(0, 0, 0, 0.7);
+        padding: 0 30px;
+    }
+
+    .navbar-nav {
+        float: left;
+    }
+
+    .vesco-nav-wrapper, .vesco-top-nav {
+        padding: 0 30px !important;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    /* About - remove diagonal border */
+    #about-bg-diagonal {
+        border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height: 350px;
+        float: none;
+    }
+
+    #about-content-box {
+        width: 100%;
+        height: 350px;;
+    }
+
+    #about-desc p {
+        text-align: center;
+    }
+
+    #about-btn {
+        text-align: center;
+    }
+
+    /* Stats */
+    .stats-item {
+        padding: 20px 0;
+    }
+
+    #footer-menu {
+        display: none;
+    }
+
+    #footer-copyrights {
+        text-align: center;
+    }
+}
 
 /* Extra Small Devices (Portrait Tablets & Small Desktops) */
 @media (max-width: 480px) {}
