@@ -84,10 +84,81 @@
     #footer-copyrights {
         text-align: center;
     }
+
+    /* Home */
+    #home-heading h3 {
+        font-size: 24px;
+    }
+
+    /* Buttons */
+    .btn-general {
+        padding: 6px 22px 6px 22px;
+        font-size: 14px;
+    }
+
+    /* Testimonials */
+    .testimonial blockquote {
+        padding: 6px 50px;
+    }
+
+    .testimonial blockquote:before {
+        left: 10px;
+    }
+
+    .testimonial blockquote:after {
+        right: 10px;
+    }
+
+    .testimonial blockquote p {
+        font-size: 14px
+    }
+
+    /* Stats */
+    .stats-item {
+        padding: 20px 0;
+    }
 }
 
 /* Extra Small Devices (Portrait Tablets & Small Desktops) */
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+    /* OK */
+}
 
 /* Extra Small Devices (Smaller Devices) */
-@media (max-width: 320px) {}
+@media (max-width: 320px) {
+
+    /* Services */
+    .service-item-icon i,
+    .service-item-icon svg {
+        width: 58px;
+        height: 58px;
+        padding: 7px;
+    }
+
+    .service-item-icon h3 {
+        font-size: 17px;
+    }
+
+    /* About */
+    #about-content-box {
+        margin-top: 40px;
+        
+    }
+
+    /* Testimonials */
+    .testimonial img {
+        max-width: 80px;
+    }
+    
+    .testimonial blockquote {
+        padding: 6px 30px;
+    }
+
+    .testimonial blockquote:before {
+        left: 7px;
+    }
+
+    .testimonial blockquote:after {
+        right: 7px;
+    }
+}

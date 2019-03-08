@@ -168,6 +168,7 @@ h3 {
     cursor: pointer;
 }
 
+.service-item-icon i,
 .service-item-icon svg {
     color: #34c6d3;
     float: left;
