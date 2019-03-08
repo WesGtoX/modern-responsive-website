@@ -138,7 +138,7 @@ $(function() {
         var section = $(this).attr("href");
 
         $('html, body').animate({
-            scrollTop: $(section).offset().top - 70
+            scrollTop: $(section).offset().top - 64
         }, 1250, "easeInOutExpo");
     });
 });

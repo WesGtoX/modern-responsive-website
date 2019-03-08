@@ -28,6 +28,10 @@
     .vesco-nav-wrapper, .vesco-top-nav {
         padding: 0 30px !important;
     }
+
+    #services .container {
+        max-width: 100%;
+    }
 }
 
 /* Extra Small Devices (Landscapes Phones & Portrait Tablets) */
