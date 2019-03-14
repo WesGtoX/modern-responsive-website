@@ -121,6 +121,10 @@
     .stats-item {
         padding: 20px 0;
     }
+
+    .btn-back-to-top {
+        display: none !important;
+    }
 }
 
 /* Extra Small Devices (Portrait Tablets & Small Desktops) */

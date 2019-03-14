@@ -524,7 +524,8 @@ footer{
     border-top: 5px solid rgba(0, 0, 0, 0.1);
 }
 
-#contact-left h3, #contact-right h3 {
+#contact-left h3, 
+#contact-right h3 {
     color: #ffffff;
     font-size: 27px;
     font-weight: 700;
@@ -545,11 +546,18 @@ address {
     color: #ffffff;
 }
 
-#contact-left p, address p, #phone-fax-email p {
+#contact-left p, 
+address p, 
+#phone-fax-email p {
     font-weight: normal;
 }
 
-address strong, #phone-fax-email strong {
+address strong {
+    font-size: 16px;
+}
+
+address strong, 
+#phone-fax-email strong {
     letter-spacing: 1px;
 }
 
